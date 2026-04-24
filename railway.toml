@@ -1,0 +1,5 @@
+[build]
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = "xray run -config /etc/xray/config.json"
